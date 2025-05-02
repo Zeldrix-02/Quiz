@@ -1,14 +1,18 @@
 body {
-  background-color: #f0f2f5;
-  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #e0f2fe);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
   max-width: 600px;
   margin: auto;
+  border: none;
+  border-radius: 16px;
 }
 
 button.active {
-  background-color: #0d6efd !important;
+  background-color: #3b82f6 !important;
   color: white !important;
 }
